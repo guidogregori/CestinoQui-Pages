@@ -9,5 +9,6 @@ Questa repository non contiene il codice sorgente delle applicazioni né pacchet
 - Privacy: https://www.cestinoqui.it/privacy.html
 - Termini: https://www.cestinoqui.it/terms.html
 - Versione Even G2 pubblicata: **0.3.0**; versione **0.3.1** inviata a Even Hub per la revisione
+- Versione **0.4.0 in sviluppo**: interfaccia, navigazione e menu anche in tedesco
 - Supporto: info@cestinoqui.it
 - Dati cartografici: © collaboratori OpenStreetMap, licenza ODbL
