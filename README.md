@@ -10,6 +10,6 @@ Questa repository non contiene il codice sorgente delle applicazioni né pacchet
 - Termini: https://www.cestinoqui.it/terms.html
 - Versione Even G2 pubblicata: **0.3.1**
 - Versione **0.4.0 in revisione**: interfaccia, navigazione e menu anche in tedesco
-- Build di prova Even G2 **0.4.2**: navigazione più stabile agli incroci, filtro degli agganci GPS alle strade laterali e selettore italiano/inglese/tedesco corretto
+- Versione Even G2 **0.4.3 verificata**: aggiornamento più rapido delle distanze, controllo più severo delle svolte agli incroci e selettore italiano/inglese/tedesco corretto
 - Supporto: info@cestinoqui.it
 - Dati cartografici: © collaboratori OpenStreetMap, licenza ODbL
