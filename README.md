@@ -5,6 +5,8 @@ Repository pubblica multipiattaforma con informazioni, supporto e informativa pr
 Questa repository non contiene il codice sorgente delle applicazioni né pacchetti installabili. I progetti Apple, Android ed Even G2 sono conservati in repository private separate.
 
 - Sito ufficiale: https://www.cestinoqui.it/
+- Versione iPhone e iPad pubblicata: **1.0**
+- Versione iPhone e iPad **1.1 in preparazione**: interfaccia in italiano, inglese, tedesco e francese
 - GitHub Pages informativa: https://guidogregori.github.io/CestinoQui-Pages/
 - Privacy: https://www.cestinoqui.it/privacy.html
 - Termini: https://www.cestinoqui.it/terms.html
