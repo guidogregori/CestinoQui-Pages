@@ -11,8 +11,7 @@ Questa repository non contiene il codice sorgente delle applicazioni né pacchet
 - GitHub Pages informativa: https://guidogregori.github.io/CestinoQui-Pages/
 - Privacy: https://www.cestinoqui.it/privacy.html
 - Termini: https://www.cestinoqui.it/terms.html
-- Versione Even G2 pubblicata: **0.3.1**
-- Versione **0.4.0 in revisione**: interfaccia, navigazione e menu anche in tedesco
-- Versione Even G2 **0.5.0 in preparazione**: italiano, inglese, tedesco e francese, aggiornamento rapido delle distanze e controllo severo delle svolte agli incroci
+- Versione Even G2 corrente: **0.5.1**
+- Novità G2 0.5.1: rilevamento della direzione errata dopo un allontanamento confermato, avviso localizzato e simbolo di inversione dot-matrix ottimizzato per il display diviso degli occhiali
 - Supporto: info@cestinoqui.it
 - Dati cartografici: © collaboratori OpenStreetMap, licenza ODbL
