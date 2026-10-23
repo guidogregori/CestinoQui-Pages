@@ -10,7 +10,7 @@ Questa repository non contiene il codice sorgente delle applicazioni né pacchet
 - GitHub Pages informativa: https://guidogregori.github.io/CestinoQui-Pages/
 - Privacy: https://www.cestinoqui.it/privacy.html
 - Termini: https://www.cestinoqui.it/terms.html
-- Versione Even G2 corrente: **0.5.2**
-- Novità G2 0.5.2: dettagli non H24 compatti su una sola riga, con orario OpenStreetMap quando disponibile e indicazione localizzata quando l'orario non è noto
+- Versione Even G2 corrente: **0.5.3**
+- Novità G2 0.5.3: ricerca più affidabile grazie al failover automatico tra più istanze pubbliche globali di Overpass API
 - Supporto: info@cestinoqui.it
 - Dati cartografici: © collaboratori OpenStreetMap, licenza ODbL
