@@ -10,18 +10,19 @@
   <main>
     <p class="eyebrow">CestinoQui</p>
     <h1>Informativa sulla privacy</h1>
-    <p class="muted">Ultimo aggiornamento: 23 ottobre 2026</p>
+    <p class="muted">Ultimo aggiornamento: 26 ottobre 2026</p>
     <p>La versione ufficiale in italiano, inglese, tedesco, francese e spagnolo è pubblicata su <a href="https://www.cestinoqui.it/privacy.html">www.cestinoqui.it/privacy.html</a>. Consulta anche i <a href="https://www.cestinoqui.it/terms.html">Termini e condizioni</a>.</p>
 
     <h2>In sintesi</h2>
     <p>Questa informativa riguarda CestinoQui per iPhone, iPad, Android ed Even G2. CestinoQui è un progetto indipendente e non è affiliato, approvato né rappresenta alcun ente governativo o pubblica amministrazione. L’app non richiede un account proprietario, non contiene pubblicità, non utilizza l’ID pubblicità e non usa i dati per il tracciamento. La posizione viene usata per fornire le funzioni richieste dall’utente.</p>
 
     <h2>Posizione</h2>
-    <p>Con il consenso dell’utente, l’app accede alla posizione solamente mentre è in uso. Le coordinate correnti vengono utilizzate per centrare la mappa, calcolare distanze, cercare i cestini vicini, verificare le modifiche effettuate sul posto e proporre la posizione di una nuova segnalazione. Le coordinate necessarie vengono trasmesse direttamente ai fornitori indicati di seguito, ma non allo sviluppatore. L’app non conserva una cronologia degli spostamenti.</p>
+    <p>Con il consenso dell’utente, l’app accede alla posizione solamente mentre è in uso. Le coordinate correnti vengono utilizzate per centrare la mappa, calcolare distanze, cercare i cestini vicini, verificare le modifiche effettuate sul posto e proporre la posizione di una nuova segnalazione. In CestinoQui G2, coordinate arrotondate a tre decimali, con una precisione di circa 100 metri, possono essere inviate al relay di cestinoqui.it per rendere più affidabile la ricerca. L’app non crea una cronologia degli spostamenti.</p>
 
     <h2>Servizi esterni</h2>
     <ul>
-      <li><strong>OpenStreetMap, Overpass API e Nominatim:</strong> ricerca dei cestini e dei luoghi, indirizzi approssimativi e, dopo conferma dell’utente, pubblicazione di aggiunte, modifiche, correzioni della posizione o rimozioni. CestinoQui G2 può interrogare le istanze Overpass pubbliche gestite da FOSSGIS, VK Maps o Private.coffee.</li>
+      <li><strong>OpenStreetMap, Overpass API e Nominatim:</strong> ricerca dei cestini e dei luoghi, indirizzi approssimativi e, dopo conferma dell’utente, pubblicazione di aggiunte, modifiche, correzioni della posizione o rimozioni. CestinoQui G2 può interrogare le istanze Overpass pubbliche gestite da FOSSGIS, OpenStreetMap France, VK Maps o Private.coffee.</li>
+      <li><strong>relay CestinoQui su cestinoqui.it:</strong> nella versione Even G2, inoltro a Overpass delle ricerche con coordinate approssimate e riutilizzo temporaneo dei risultati della stessa zona.</li>
       <li><strong>Apple MapKit, Core Location e servizi cartografici Apple:</strong> nella versione iPhone e iPad, visualizzazione della mappa, posizione, geocodifica e indicazioni.</li>
       <li><strong>Google Maps Platform:</strong> nella versione Android, visualizzazione della cartografia standard o satellitare; nelle versioni Apple e Android, Google Maps viene inoltre aperto per Street View quando l’utente sceglie espressamente questa funzione.</li>
       <li><strong>CARTO:</strong> nella versione Even G2, visualizzazione della mappa semplificata.</li>
@@ -34,9 +35,10 @@
     <p>Nelle versioni iPhone, iPad e Android, l’accesso avviene sul sito ufficiale OpenStreetMap tramite OAuth 2.0. CestinoQui non vede né conserva la password. Il token di autorizzazione è protetto nel Portachiavi sui dispositivi Apple e tramite Android Keystore su Android; è escluso dai backup dell’app Android. Può essere rimosso disconnettendo l’account dall’app o revocando l’autorizzazione nelle impostazioni OpenStreetMap. Le modifiche inviate sono pubbliche e attribuite all’account OSM dell’utente. La versione Even G2 non richiede un account OpenStreetMap e non modifica i dati.</p>
 
     <h2>Dati memorizzati</h2>
-    <p>CestinoQui non gestisce un server proprietario e non memorizza su server propri posizione, identificativi personali o cronologia delle ricerche. La lingua e le preferenze dell’app vengono conservate sul dispositivo. Gli indirizzi approssimativi mostrati servono a verificare una posizione e non vengono aggiunti automaticamente a OpenStreetMap.</p>
+    <p>CestinoQui non usa server propri per raccogliere account, credenziali o cronologie degli spostamenti. La lingua e le preferenze dell’app vengono conservate sul dispositivo. Gli indirizzi approssimativi mostrati servono a verificare una posizione e non vengono aggiunti automaticamente a OpenStreetMap.</p>
     <p>Nelle app per iPhone, iPad e Android, il riepilogo comunale usa le coordinate del telefono o del luogo cercato per individuare il Comune tramite Overpass. I conteggi, il nome e l’identificativo del Comune e la data di aggiornamento sono salvati sul dispositivo e riutilizzati per 24 ore. Comuni recenti conserva fino a 20 Comuni consultati con Vicino a me o con una ricerca. Per i luoghi o indirizzi cercati conserva il titolo e le coordinate del punto selezionato; per i Comuni individuati tramite GPS conserva un punto rappresentativo del Comune ricavato dai dati OpenStreetMap. Questi punti permettono di riaprire la mappa. Le coordinate GPS del telefono restano solo in memoria e non vengono salvate nell’elenco. Le voci possono essere rimosse dall’utente e quelle non consultate da oltre 30 giorni vengono eliminate alla successiva consultazione o apertura dell’app. Questi dati non sono inviati allo sviluppatore.</p>
     <p>Nell’app per iPhone e iPad, i risultati della ricerca sulla mappa e le coordinate necessarie alla richiesta sono mantenuti temporaneamente solo in memoria, senza essere salvati su disco. I risultati della stessa area e dello stesso raggio sono riutilizzati per 2 minuti; in caso di problemi di connessione possono essere mostrati risultati ottenuti negli ultimi 15 minuti. Per migliorare la disponibilità del servizio, la ricerca può passare automaticamente tra i server Overpass overpass-api.de e overpass.openstreetmap.fr. Il server contattato riceve le coordinate del centro e il raggio della ricerca. Questi dati non sono inviati allo sviluppatore.</p>
+    <p>CestinoQui G2 conserva sul dispositivo i risultati della stessa zona per 24 ore e può riutilizzarli fino a 7 giorni durante un’interruzione completa dei servizi. Il relay di cestinoqui.it riceve tramite POST soltanto coordinate arrotondate a tre decimali e il raggio, conserva i risultati OpenStreetMap per zona per 6 ore e può riutilizzarli fino a 7 giorni quando Overpass non è disponibile. Non crea profili né cronologie degli spostamenti. Il fornitore di hosting può comunque registrare dati tecnici, incluso l’indirizzo IP, secondo i propri tempi di conservazione.</p>
 
     <h2>Sito web</h2>
     <p>La preferenza linguistica del sito viene salvata localmente nel browser e non viene inviata allo sviluppatore.</p>
@@ -49,7 +51,7 @@
     <p>Il permesso di localizzazione può essere modificato o revocato in qualsiasi momento dalle Impostazioni di iOS, iPadOS, Android o dall’Even App. Senza tale permesso la ricerca automatica nelle vicinanze non può funzionare.</p>
 
     <h2>Modifiche</h2>
-    <p>Questa informativa sarà aggiornata se verranno introdotte nuove funzioni, come fotografie, analytics o un backend proprietario.</p>
+    <p>Questa informativa sarà aggiornata se verranno introdotte nuove funzioni, come fotografie o analytics.</p>
 
     <h2>Contatti</h2>
     <p>Per domande sulla privacy è possibile aprire una richiesta nella <a href="support.html">pagina di supporto</a> oppure scrivere a <a href="mailto:info@cestinoqui.it">info@cestinoqui.it</a>.</p>
